@@ -9,13 +9,14 @@ Also simulates L1-caching using a four-way set-associative instruction-cache tha
 
 The instructions supported are:
 
-ADD | ADDI | ADDIS | ADDS | AND | ANDS
-B | BEQ | BNE | BGT | BLT | BGE
-BLE | CBNZ |CBZ | EOR | LDUR | LDURB
-LDURH | LSL | LSR | MOVZ | ORR | STUR
-STURB | STURH | STURW | SUB | SUBI | SUBIS
-SUBS | MUL | SDIV | UDIV | HLT | CMP
-BL | BR
+| ADD   | ADDI  | ADDIS | ADDS | AND  | ANDS  |
+|-------|-------|-------|------|------|-------|
+| B     | BEQ   | BNE   | BGT  | BLT  | BGE   |
+| BLE   | CBNZ  | CBZ   | EOR  | LDUR | LDURB |
+| LDURH | LSL   | LSR   | MOVZ | ORR  | STUR  |
+| STURB | STURH | STURW | SUB  | SUBI | SUBIS |
+| SUBS  | MUL   | SDIV  | UDIV | HLT  | CMP   |
+| BL    | BR    |       |      |      |       |
 
 To run, type:
 
